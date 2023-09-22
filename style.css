@@ -134,7 +134,7 @@ section {
   display: flex;
 }
 /* PROFILE section */
-#PROFILE {
+#profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -159,7 +159,7 @@ section {
 .section__text__p1 {
   text-align: center;
 }
-.section__text__p1 {
+.section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -177,4 +177,129 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  border-radius: 50%;
+}
+/* Buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+.btn-color-2 {
+  background: rgb(0, 0, 0);
+}
+.btn-color-2 {
+  background: none;
+}
+
+/* About section */
+#about {
+  position: relative;
+}
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  height: 600px;
+  width: 600px;
+  object-fit: contain;
+  border-radius: 10%;
+}
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+/* Experience section */
+#experience {
+  position: relative;
+}
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+article.icon {
+  cursor: default;
+}
+/* Projects section */
+.project-img {
+  width: 1000px;
+  height: 1200px;
+  object-fit: contain;
+}
+
+#projects {
+  position: relative;
 }
