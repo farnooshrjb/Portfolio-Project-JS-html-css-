@@ -234,7 +234,7 @@ section {
   height: 600px;
   width: 600px;
   object-fit: contain;
-  border-radius: 10%;
+  border-radius: 2rem;
 }
 .arrow {
   position: absolute;
